@@ -38,7 +38,7 @@ const ContactState = props => {
 		} catch (err) {
 			dispatch({ 
 				type: CONTACT_ERROR,
-				payload: res.data
+				payload: err.data
 			})
 		}
 		
@@ -61,7 +61,7 @@ const ContactState = props => {
 		} catch (err) {
 			dispatch({ 
 				type: CONTACT_ERROR,
-				payload: res.data
+				payload: err.data
 			})
 		}
 	}
@@ -79,7 +79,7 @@ const ContactState = props => {
 		} catch (err) {
 			dispatch({ 
 				type: CONTACT_ERROR,
-				payload: res.data
+				payload: err.data
 			})
 		}
 	}
