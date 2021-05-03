@@ -7,7 +7,8 @@ import {
 	FILTER_CONTACTS,
 	CLEAR_FILTER,
   GET_CONTACTS,
-  CLEAR_CONTACTS
+  CLEAR_CONTACTS,
+  CONTACT_ERROR
 } from '../types';
 
 export default (state, action) => {
